@@ -47,4 +47,3 @@ class Server:
         my_dict['page'] = page
         my_dict['data'] = self.get_page(page, page_size)
         page_data = self.get_page(page + 1, page_size)
-
